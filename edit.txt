@@ -1,0 +1,34 @@
+Now your commit tells:
+
+What → data loss prevention
+
+Why → accidental deletion risk
+
+Impact → high
+
+🔹 Trade-offs & constraints
+
+Too short → no context → future confusion
+
+Too long → slows workflow → ignored
+
+Sweet spot: 1 line summary + optional 1–3 lines context
+
+🔹 High-leverage rule
+
+If someone reads only your commit history, they should understand your entire project evolution.
+
+🚀 Next actions (do this immediately)
+
+Start using:
+type: short summary format from your next commit
+
+Rewrite last 3 commits using:
+
+git commit --amend
+
+Pick 5 past commits → improve clarity (practice loop)
+
+Maintain consistency — this compounds over time
+
+If you want, I can create a custom commit template for your AWS/DevOps projects that makes your GitHub look top 1% instantly.
